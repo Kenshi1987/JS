@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css
+    ">
+	<title>Do IT</title>
+    <!--Estilo propio-->
+    <link rel="stylesheet" href="./css/style.css">
+    <!--JS Propio-->
+    <script src="./js/main.js" defer></script>
+    <!--JS Libreria Sweet-->
+    <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>    
+    <!--css de bootstrap -->
+	<link rel="stylesheet" href="./css/bootstrap.min.css">
+    
+</head>
+<body>
+
+    <div id="contenedor" class="d-flex justify-content-center  mt-5">
+
+        <div id="caja1" class="bg-transparent text-dark bg-gradient  row text-center justify-content-center m-3 p-2 align-items-center">
+            <h2 id="temperatura-valor"></h2>
+            <h2 id="temperatura-descripcion"></h2>
+        </div>
+
+        <div id="caja2" class="bg-transparent text-dark bg-gradient text-center m-3 p-2 align-items-center">
+            <h2 id="ubicacion"></h2>
+            <img id="icono-animado" width="128px" height="128px" src="" alt="iconoclima" >
+        </div>
+
+    </div>
+    
+    <div class="myContainer">
+
+        <div class="perfil text-center">
+            <div id="fecha"></div>
+            <h1></h1>
+            <span>Vamos a cumplir todas las metas</span>
+        </div>
+
+        <div class="agregar-tarea">
+            <input type="text" id="input" placeholder="Agregar una Tarea.">
+            <i id="enter" class="fas fa-plus-circle"></i>
+        </div>
+
+
+        <div class="seccion-tarea text-center ">
+            <h3>Estas son tus tareas pendientes</h3>
+            <ul id="lista" class="container">
+                <!--<li>
+                    <i class="far fa-circle co" data="realizado" id="0"></i>
+                    <p class="text">Hacer la tareas</p>
+                    <i class="fas fa-trash de" data="eliminado" id="0"></i>
+                </li>-->
+            </ul>
+        </div>
+
+    </div>
+
+    
+
+
+    
+	<!-- js de bootstrap-->
+	<script src="./js/bootstrap.min.js"></script>
+</body>
+</html>
